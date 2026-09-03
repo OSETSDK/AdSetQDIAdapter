@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AdSetQDIAdapter"
-  s.version      = "1.0.1"
+  s.version      = "2.0.0.1"
   s.summary      = "AdSet广告对接适配器类"
   s.description  = <<-DESC
                       AdSetQDIAdapter 是一个专业的广告聚合SDK，提供高效的广告展示和收益优化功能。
@@ -22,6 +22,6 @@ Pod::Spec.new do |s|
   s.user_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
   s.swift_version = '5.0'
 
-  s.dependency 'OSETCoreSDK'
+  s.dependency 'OSETCoreAd'
   s.dependency 'AdSetQDIAdSDK'
 end
